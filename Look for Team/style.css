@@ -48,3 +48,19 @@ select:hover{
     border-color: var(--accent-hover);
     box-shadow: 0 0 10px var(--accent-color), 0 0 20px var(--accent-color);
 }
+
+/* Div carriera giocatore */
+#carrGiocatore{
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    padding: 15px;
+    margin-top: 20px;   
+    border-radius: 8px;
+    min-height: 50px;
+    transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+#carrGiocatore:hover{
+    border-color: var(--accent-hover);
+    box-shadow: 0 0 15px var(--accent-color), 0 0 30px var(--accent-color);
+}
