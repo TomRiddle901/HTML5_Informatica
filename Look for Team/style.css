@@ -5,8 +5,8 @@
 :root{
     --bg-body: #121212;
     --text-color: #e0e0e0;
-    --accent-color: #4682b4;
-    --accent-hover: #5a9bd4;
+    --accent-color: #00ffff;
+    --accent-hover: #5af0ff;
     --select-bg: #1e1e1e;
     --select-border: #333333;
     --card-bg: #1c1c1c;
@@ -19,4 +19,15 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
     line-height: 1.6;
+}
+
+/* Titoli */
+h1{
+    color: var(--accent-color);
+    text-shadow: 0 0 5px var(--accent-color), 0 0 10px var(--accent-color);
+    margin-bottom: 10px;
+}
+
+p{
+    margin-bottom: 20px;
 }
