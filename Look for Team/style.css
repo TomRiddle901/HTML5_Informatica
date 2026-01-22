@@ -64,3 +64,11 @@ select:hover{
     border-color: var(--accent-hover);
     box-shadow: 0 0 15px var(--accent-color), 0 0 30px var(--accent-color);
 }
+
+/* Responsive */
+@media(max-width: 600px){
+    select{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
