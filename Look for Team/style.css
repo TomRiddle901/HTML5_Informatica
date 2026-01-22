@@ -31,3 +31,20 @@ h1{
 p{
     margin-bottom: 20px;
 }
+
+/* Selext box */
+select{
+    background-color: var(--select-bg);
+    color: var(--text-color);
+    border: 1px solid var(--select-border);
+    padding: 8px 12px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+select:hover{
+    border-color: var(--accent-hover);
+    box-shadow: 0 0 10px var(--accent-color), 0 0 20px var(--accent-color);
+}
