@@ -1,0 +1,23 @@
+[
+  {"idGiocatore": "idGiocatore", "idSquadra": "idSquadra", "anno": "annoSquadra"},
+  {"idGiocatore": "1", "idSquadra": "1", "anno": "9999"},
+  {"idGiocatore": "2", "idSquadra": "1", "anno": "2012"},
+  {"idGiocatore": "3", "idSquadra": "1", "anno": "2912"},
+  {"idGiocatore": "4", "idSquadra": "1", "anno": "8321"},
+  {"idGiocatore": "5", "idSquadra": "1", "anno": "5647"},
+  {"idGiocatore": "1", "idSquadra": "2", "anno": "254"},
+  {"idGiocatore": "2", "idSquadra": "2", "anno": "2024"},
+  {"idGiocatore": "3", "idSquadra": "2", "anno": "404"},
+  {"idGiocatore": "4", "idSquadra": "2", "anno": "5090"},
+  {"idGiocatore": "5", "idSquadra": "2", "anno": "3030"},
+  {"idGiocatore": "1", "idSquadra": "3", "anno": "4050"},
+  {"idGiocatore": "2", "idSquadra": "3", "anno": "4"},
+  {"idGiocatore": "3", "idSquadra": "3", "anno": "24"},
+  {"idGiocatore": "4", "idSquadra": "3", "anno": "224"},
+  {"idGiocatore": "5", "idSquadra": "3", "anno": "20"},
+  {"idGiocatore": "1", "idSquadra": "4", "anno": "2020"},
+  {"idGiocatore": "2", "idSquadra": "4", "anno": "2020"},
+  {"idGiocatore": "3", "idSquadra": "4", "anno": "2020"},
+  {"idGiocatore": "4", "idSquadra": "4", "anno": "2020"},
+  {"idGiocatore": "5", "idSquadra": "4", "anno": "2020"}
+]

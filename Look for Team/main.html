@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gestione files Json</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="caricaJSON()">
+        <h1>Leggi files json</h1>
+        <p>Squadre del campionato regionale segreto</p>
+        <select id="selectSquadra" onchange="aggiornaGiocatori()"></select>
+        <select id="selectGiocatore" onchange="mostraCarriera()"></select>
+        <div id="carrGiocatore"></div>
+        <script src="importJson.js"></script>
+    </body>
+</html>

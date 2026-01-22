@@ -1,0 +1,23 @@
+[
+  {"idSquadra": "idSquadra", "id": "idGiocatore", "nome": "nomeGiocatore", "cognome": "cognomeGiocatore"},
+  {"idSquadra": "1", "id": "1", "nome": "Jabed", "cognome": "Hamed"},
+  {"idSquadra": "1", "id": "2", "nome": "Daniele", "cognome": "Poponesi"},
+  {"idSquadra": "1", "id": "3", "nome": "Kristian", "cognome": "Dusku"},
+  {"idSquadra": "1", "id": "4", "nome": "Tommaso", "cognome": "Mangialardo"},
+  {"idSquadra": "1", "id": "5", "nome": "Alessio", "cognome": "Sensi"},
+  {"idSquadra": "2", "id": "1", "nome": "Ciro", "cognome": "Strano"},
+  {"idSquadra": "2", "id": "2", "nome": "Incredibile", "cognome": "Nome"},
+  {"idSquadra": "2", "id": "3", "nome": "Pago", "cognome": "Letasse"},
+  {"idSquadra": "2", "id": "4", "nome": "Mangia", "cognome": "Fuoco"},
+  {"idSquadra": "2", "id": "5", "nome": "Info", "cognome": "Rmatica"},
+  {"idSquadra": "3", "id": "1", "nome": "Diagramma", "cognome": "Diflusso"},
+  {"idSquadra": "3", "id": "2", "nome": "Tabella", "cognome": "Variabile"},
+  {"idSquadra": "3", "id": "3", "nome": "Convertitore", "cognome": "Cplusplus"},
+  {"idSquadra": "3", "id": "4", "nome": "Compilatore", "cognome": "Rotto"},
+  {"idSquadra": "3", "id": "5", "nome": "Esplode", "cognome": "Ilpc"},
+  {"idSquadra": "4", "id": "1", "nome": "Palla", "cognome": "Avvolo"},
+  {"idSquadra": "4", "id": "2", "nome": "Salto", "cognome": "Inaria"},
+  {"idSquadra": "4", "id": "3", "nome": "Corro", "cognome": "Lontano"},
+  {"idSquadra": "4", "id": "4", "nome": "Nuoto", "cognome": "Veloce"},
+  {"idSquadra": "4", "id": "5", "nome": "Lancio", "cognome": "Giavellotto"}
+]
