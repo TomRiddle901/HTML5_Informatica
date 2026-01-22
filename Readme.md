@@ -12,11 +12,11 @@ Le pagine includono esempi pratici e progetti web che coprono diversi argomenti 
 ## Struttura della repository
 Ogni cartella è un progetto/esercizio che viene svolto in classe
 
-HTML5_Informatica/
-├── Esercizio_1/
-├── Esercizio_2/
-├── Progetto_1/
-├── Progetto_2/
+HTML5_Informatica/<br>
+├── Esercizio_1/<br>
+├── Esercizio_2/<br>
+├── Progetto_1/<br>
+├── Progetto_2/<br>
 └── ...
 
 ---
