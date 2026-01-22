@@ -7,17 +7,17 @@
         <link rel="stylesheet" href="style.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     </head>
-    <body>
+    <body onload="caricaJson()">
         <header>
             <h1>Elaboratore dati ISTAT</h1>
         </header>
         <main>
             <section id="categoria">
                 <h2>Seleziona la categoria dei dati da analizzare</h2>
-                <select id="categoria">
+                <select id="categoria_select">
                     <!-- Popolato dinamicamente -->
                 </select>
-                <select id="sottocategoria" hidden>
+                <select id="sottocategoria_select" hidden>
                     <!-- Popolato dinamicamente dal js -->
                 </select>
             </section>
