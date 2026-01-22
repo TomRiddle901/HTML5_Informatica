@@ -1,0 +1,22 @@
+/* ==========================
+   Tema scuro per la pagina
+=========================== */
+
+:root{
+    --bg-body: #121212;
+    --text-color: #e0e0e0;
+    --accent-color: #4682b4;
+    --accent-hover: #5a9bd4;
+    --select-bg: #1e1e1e;
+    --select-border: #333333;
+    --card-bg: #1c1c1c;
+    --card-border: #333333;
+}
+
+body{
+    background-color: var(--bg-body);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+}
