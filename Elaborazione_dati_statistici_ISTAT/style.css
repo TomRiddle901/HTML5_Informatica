@@ -90,3 +90,11 @@ canvas {
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+/* Messaggio di errore */
+#error {
+    color: #e74c3c;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
