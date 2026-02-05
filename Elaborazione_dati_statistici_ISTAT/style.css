@@ -78,3 +78,15 @@ select {
     background-color: var(--select-bg);
     color: var(--text-color);
 }
+
+/** Stile per canvas / grafico */
+canvas {
+    display: block;
+    width: 100% !important;
+    max-width: 800px;
+    height: 400px !important;
+    background-color: var(--canvas-bg);
+    margin: 0, auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
