@@ -5,3 +5,15 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* Tema chiaro */
+:root {
+    --bg-body: #f0f4f8;
+    --text-color: #333;
+    --header-bg: #4682b4;
+    --section-bg: #fff;
+    --section-border: #ddd;
+    --select-bg: #fff;
+    --select-border: #ccc;
+    --canvas-bg: #fff;
+}
