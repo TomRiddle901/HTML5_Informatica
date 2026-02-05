@@ -17,3 +17,18 @@
     --select-border: #ccc;
     --canvas-bg: #fff;
 }
+
+/* Tema scuro automatico */
+@media (prefers-color-scheme: dark){
+    :root{
+        --bg-body: #1e1e1e;
+        --text-color: #eee;
+        --header-bg: #333;
+        --header-text: #fff;
+        --section-bg: #2a2a2a;
+        --section-border: #555;
+        --select-bg: #3a3a3a;
+        --select-border: #666;
+        --canvas-bg: #2a2a2a;
+    }
+}
