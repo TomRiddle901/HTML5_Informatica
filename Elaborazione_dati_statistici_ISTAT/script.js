@@ -55,14 +55,36 @@ function creaGraficoCategoria(indice){
                 data: dati,
                 backgroundColor: getComputedStyle(document.documentElement).getPropertyValue('--bar-color'),
                 borderColor: getComputedStyle(document.documentElement).getPropertyValue('--bar-border-color'),
-                borderWidth: 1
+                borderWidth: 1,
+                borderRadius: 10,
+                hoverBackgroundColor: getComputedStyle(document.documentElement).getPropertyValue('--bar-hover-color')
             }]
         },
         options: {
             responsive: true,
+            pugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    backgroundColor: '#333',
+                    titleColor: '#fff',
+                    bodyColor: '#fff',
+                    padding: 10,
+                    cornerRadius: 6
+                }
+            },
             scales: {
                 y: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    grid: {
+                        color: 'rgba(0,0,0,0.5'
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false
+                    }
                 }
             }
         }
