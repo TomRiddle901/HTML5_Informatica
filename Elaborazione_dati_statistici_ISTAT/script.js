@@ -52,7 +52,10 @@ function creaGraficoCategoria(indice){
             labels: labels,
             datasets: [{
                 label: categorie[indice].nome + " (€)",
-                data: dati
+                data: dati,
+                backgroundColor: getComputedStyle(document.documentElement).getPropertyValue('--bar-color'),
+                borderColor: getComputedStyle(document.documentElement).getPropertyValue('--bar-border-color'),
+                borderWidth: 1
             }]
         },
         options: {
