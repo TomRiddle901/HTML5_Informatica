@@ -61,3 +61,11 @@ function creaGraficoCategoria(indice){
         }
     });
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    caricaJson();
+
+    document.getElementById("categoria_select").addEventListener("change", function(){
+        creaGraficoCategoria(this.value);
+    });
+});
