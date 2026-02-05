@@ -8,14 +8,14 @@
 
 /* Tema chiaro */
 :root {
-    --bg-body: #f0f4f8;
-    --text-color: #333;
-    --header-bg: #4682b4;
-    --section-bg: #fff;
-    --section-border: #ddd;
-    --select-bg: #fff;
-    --select-border: #ccc;
-    --canvas-bg: #fff;
+    --bg-body: #f5f7fa;
+    --text-color: #212121;
+    --header-bg: #1e88e5;
+    --section-bg: #ffffff;
+    --section-border: #cfd8dc;
+    --select-bg: #ffffff;
+    --select-border: #bbb;
+    --canvas-bg: #ffffff;
 }
 
 /* Tema scuro automatico */
