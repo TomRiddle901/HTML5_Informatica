@@ -55,3 +55,16 @@ main {
     flex-direction: column;
     gap: 30px;
 }
+
+/* Sezioni principali */
+section {
+    background-color: var(--section-bg);
+    border: 1px solid var(--section-border);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
