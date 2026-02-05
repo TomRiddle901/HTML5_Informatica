@@ -32,3 +32,26 @@
         --canvas-bg: #2a2a2a;
     }
 }
+
+/* Body e layout */
+body{
+    background-color: var(--bg-body);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--header-bg);
+    color: var(--header-text);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
