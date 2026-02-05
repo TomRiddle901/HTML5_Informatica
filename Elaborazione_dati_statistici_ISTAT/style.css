@@ -68,3 +68,13 @@ section h2 {
     margin-bottom: 15px;
     font-size: 1.2em;
 }
+
+/* Stile per select */
+select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid var(--select-border);
+    background-color: var(--select-bg);
+    color: var(--text-color);
+}
