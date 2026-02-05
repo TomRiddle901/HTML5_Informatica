@@ -98,3 +98,18 @@ canvas {
     font-weight: bold;
     margin-top: 20px;
 }
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    canvas {
+        height: 300px !important;
+    }
+
+    select {
+        width: 100%;
+    }
+}
