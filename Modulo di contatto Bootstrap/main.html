@@ -7,39 +7,39 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
-    <div class="container">
+<body style="margin-top: 10px; align-items: center;">
+    <div class="container col-sm-offset-3 col-sm-4" style="border: 2px solid #000000;">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-12" style="display: block; border-bottom: 4px solid #1565c0;">
                 <h1>Modulo di contatto</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-3">
+        <div class="row" style="padding: 10px;">
+            <div class="col-sm-2">
                 <label for="nome">Nome</label>
             </div>
-            <div class="col-sm-9">
-                <input type="tetx" id="nome" placeholder="Nome" required>
+            <div class="col-sm-8">
+                <input type="text" id="nome" placeholder="Nome" required>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-3">
+        <div class="row" style="padding: 10px;">
+            <div class="col-sm-2">
                 <label for="cognome">Cognome</label>
             </div>
-            <div class="col-sm-9">
+            <div class="col-sm-8">
                 <input type="text" id="cognome" placeholder="Cognome" required>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-3">
+        <div class="row" style="padding: 10px;">
+            <div class="col-sm-2">
                 <label for="messaggio">Messaggio</label>
             </div>
-            <div class="col-sm-9">
-                <textarea id="messaggio" rows="5" cols="36" name="messaggio" placeholder="Inserisci il messaggio qui"></textarea>
+            <div class="col-sm-8">
+                <textarea id="messaggio" rows="5" cols="39" name="messaggio" placeholder="Inserisci il messaggio qui"></textarea>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-9 col-sm-offset-3">
+        <div class="row" style="padding: 10px;">
+            <div class="col-sm-9 col-sm-offset-2">
                 <button type="submit" id="btnSend" class="btn btn-success btn-block">Invia</button>
             </div>
         </div>
