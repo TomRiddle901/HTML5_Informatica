@@ -8,6 +8,10 @@ body{
     border-radius: 10px;
 }
 
+.row{
+    padding: 10px;
+}
+
 #rowTitle{
     border-bottom: 4px solid #1565c0;
     color: #ff0000;
