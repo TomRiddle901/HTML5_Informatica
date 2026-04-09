@@ -62,7 +62,7 @@ function creaGraficoCategoria(indice){
         },
         options: {
             responsive: true,
-            pugins: {
+            plugins: {
                 legend: {
                     display: false
                 },
